@@ -1,7 +1,7 @@
 resource "aws_iam_policy" "cmtr_policy" {
   name        = "cmtr-5bf61784-iam-policy"
   path        = "/"
-  description = "Imported IAM policy"
+  description = "Custom role with limited permissions"
 
   policy = jsonencode({
     Version = "2012-10-17"
